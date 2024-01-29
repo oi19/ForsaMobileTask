@@ -1,21 +1,11 @@
 
 import React from 'react';
-import {
-    Image,
-    StyleSheet,
-    View,
-    Text,
-    Platform,
-    TouchableOpacity,
-    Animated,
-    Dimensions,
-} from 'react-native';
+import { Image, StyleSheet, View, Text, TouchableOpacity, Dimensions, } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import HomeScreen from '../presentaion/screens/HomeScreen/HomeScreen';
 import { OffersScreen } from '../presentaion/screens/OffersScreen/OffersScreen';
 import { ProfileScreen } from '../presentaion/screens/Profile/ProfileScreen';
-import { useNavigation } from '@react-navigation/native';
 import { Retail } from '../presentaion/screens/Retail/RetailScreen';
 
 

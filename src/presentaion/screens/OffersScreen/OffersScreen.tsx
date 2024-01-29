@@ -1,6 +1,6 @@
 import React from "react";
 import { View } from "react-native";
-import Header from "../../common/Header/Header";
+import Header from "../../components/common/Header/Header";
 
 
 export const OffersScreen = () => {
